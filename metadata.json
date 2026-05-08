@@ -19,6 +19,6 @@
     },
     "installation": {
         "script": "cd playbooks && bash ./install.sh",
-        "post-message": ""
+        "post-message": "Install completed"
     }
 }
