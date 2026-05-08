@@ -85,5 +85,5 @@ while IFS= read -r raw_name || [[ -n "${raw_name}" ]]; do
     name="$(printf '%s' "${raw_name}" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
     [[ -z "${name}" ]] && continue
 
-    "${sima_cli}" playbooks install "${name}"
+    "${sima_cli}" playbooks install "${name}" --force
 done < "${manifest}"
