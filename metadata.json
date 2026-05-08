@@ -1,0 +1,25 @@
+{
+    "name": "Neat Coding Agent Skills and Rules",
+    "version": "0.1.0",
+    "release": "stable",
+    "description": "Neat coding agent skills and rules playbooks",
+    "platforms": [
+        {
+            "type": "palette"
+        }
+    ],
+    "resources": [
+        "manifest.txt",
+        "install.sh"
+    ],
+    "selectable-resources": [
+    ],
+    "size": {
+        "download": "3KB",
+        "install": "3KB"
+    },
+    "installation": {
+        "script": "bash ./install.sh",
+        "post-message": ""
+    }
+}

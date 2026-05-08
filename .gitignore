@@ -1,0 +1,11 @@
+.DS_Store
+
+# Local editor and environment state
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Shell/script runtime logs
+*.log
+

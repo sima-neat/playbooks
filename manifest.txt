@@ -1,0 +1,2 @@
+gh:sima-neat/insight
+gh:sima-neat/model-sdk
