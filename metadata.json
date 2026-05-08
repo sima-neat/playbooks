@@ -18,7 +18,7 @@
         "install": "3KB"
     },
     "installation": {
-        "script": "bash ./install.sh",
+        "script": "cd playbooks && bash ./install.sh",
         "post-message": ""
     }
 }
