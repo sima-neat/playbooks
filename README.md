@@ -1,20 +1,20 @@
 # Neat Coding Agent Skills and Rules
 
-This repository packages Neat coding agent skills and rules as installable playbooks.
+This repository is the index of Neat coding agent skills and rules playbooks. It does not carry the playbook payloads directly; `manifest.txt` points `sima-cli` at the playbook locations to install.
 
 ## Contents
 
-- `manifest.txt` lists the playbook names to install, one per line.
+- `manifest.txt` lists the playbook install targets, one per line. These entries can point to different locations supported by `sima-cli playbooks install`.
 - `install.sh` finds `sima-cli`, reads `manifest.txt`, and runs `sima-cli playbooks install <name>` for each non-empty entry.
-- `metadata.json` describes the package for Palette SDK installation.
+- `metadata.json` describes this index package for Palette SDK installation.
 
 ## Updating the Manifest
 
-Add one playbook name per line in `manifest.txt`:
+Add one playbook install target per line in `manifest.txt`:
 
 ```text
-example-playbook-name
-another-playbook-name
+gh:sima-neat/insight
+gh:sima-neat/model-sdk
 ```
 
 Then run:
@@ -31,7 +31,7 @@ SIMA_CLI=/home/jim/.sima-cli/.venv/bin/sima-cli bash ./install.sh
 
 ## Package Metadata
 
-The package is Palette SDK-only and includes two resources:
+The package is Palette SDK-only and includes the index resources:
 
 - `manifest.txt`
 - `install.sh`

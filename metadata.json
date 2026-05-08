@@ -2,15 +2,14 @@
     "name": "Neat Coding Agent Skills and Rules",
     "version": "0.1.0",
     "release": "stable",
-    "description": "Neat coding agent skills and rules playbooks",
+    "description": "Index of Neat coding agent playbooks for sima-cli installation",
     "platforms": [
         {
             "type": "palette"
         }
     ],
     "resources": [
-        "manifest.txt",
-        "install.sh"
+        "gh:sima-neat/playbooks"
     ],
     "selectable-resources": [
     ],
