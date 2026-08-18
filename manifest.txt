@@ -1,3 +1,4 @@
 gh:sima-neat/insight
 gh:sima-neat/model-sdk
 gh:sima-neat/apps/skills
+gh:sima-neat/llima/skills/sima-llima-compile-run
